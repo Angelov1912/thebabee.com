@@ -1,0 +1,50 @@
+.woocommerce-shipping-totals > th {
+	display: none;
+}
+
+.sc-service-point-picker-overlay {
+	padding: 0% !important;
+}
+
+.woocommerce-shipping-methods > li {
+	width: 100%;
+	padding: 0% !important;
+}
+
+.woocommerce-shipping-totals > td {
+	width: 100%;
+	padding: 0% !important;
+}
+
+.sc-service-point-card-header {
+	position: relative;
+}
+
+.sc-service-point-card__title {
+	position: relative;
+	display: block !important;
+}
+
+/* Add Media Queries for mobile devices */
+@media only screen and (max-width: 600px) {
+	.woocommerce-shipping-totals > th {
+	  display: none;
+  }
+  .sc-service-point-picker-overlay {
+	  padding: 0% !important;
+  }
+
+  .woocommerce-shipping-methods > li {
+	  width: 130%;
+	  padding: 0% !important;
+  }
+
+  .woocommerce-shipping-totals > td {
+	  width: 100%;
+	  padding: 0% !important;
+  }
+  .sc-service-point-card__title {
+	  position: relative;
+	  display: block !important;
+  }
+}
